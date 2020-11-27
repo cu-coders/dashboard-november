@@ -3,7 +3,7 @@ import React from 'react';
 // import Login from "./page/Login/Login";
 // import Lock from "./page/Lock/Lock";
 // import Forgot from "./page/Forgot Password/Forgot.js";
-import Settings from "./page/Settings/Settings";
+// import Settings from "./page/Settings/Settings";
 // import Home from "./page/Home/Home";
 import Job from "./page/User Job/Job";
 
@@ -15,7 +15,8 @@ function App() {
   return (
     <>
       {/* <Home /> */}
-      <Settings />
+      <Job />
+      {/* <Settings /> */}
     </>
   );
 }
