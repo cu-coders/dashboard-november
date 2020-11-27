@@ -1,0 +1,63 @@
+.lock-container
+{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px 50px 50px;
+    z-index: 1;
+}
+
+.lock-heading
+{
+    color: #575757;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 60px;
+    padding: 10px;
+    text-align: center;
+}
+
+.lock-form
+{
+    font-size: 15px;
+}
+
+.lock-text-input
+{
+    padding: 10px;
+}
+
+.lock-text-input input
+{
+    background-color: none;
+    border: 0;
+    padding: 0 0 0 20px;
+    display: block;
+    outline: none;
+}
+
+.lock-submit-input input
+{
+    position: absolute;
+    left: -20%;
+    color: white;
+    font-size: medium;
+    top: 30%;
+    border: 0;
+    border-radius: 7px;
+    padding: 10px 25px 10px 25px;
+    background-color: #5D38DB;
+}
+.lock-submit-input input:hover
+{
+    box-shadow: 0px 10px 25px #CCD2EC;
+}
+
+.bubble-image
+{
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    min-width: 360px;
+}
